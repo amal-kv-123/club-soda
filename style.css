@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    font-family:  'Archivo', sans-serif;
+} */
+.main{
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header{
+    width: 100vh;
+    max-width: 100%;
+}
+.cover-img{
+    width: 100vh;
+    max-width: 100%;
+    height: 44vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    background-image: url("https://joinclubsoda.com/wp-content/uploads/2020/12/Welcome-to-Club-Soda-drink-mindfully-and-live-well.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+.outer{
+    display: flex;
+    justify-content: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img img{
+    height: 100%;
+    position: relative;
+}
+.text-div{
+  width: 50%;
+  height: 13vh;
+  min-width: 30vh;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} 
+.seconde-outer{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}  
+.text{
+    color: rgb(0, 0, 0);
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder; 
+}
+.text{
+  display: flex;
+  align-content: center;
+  text-align: center;
+
+
+}
+.icon{
+    height: 4rem;
+    
+}
+mark{
+    color: rgb(224, 26, 59);
+    
+}
+.para{
+    width: 110vh;
+    max-width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.para1{
+    color: rgb(112, 112, 112);
+    font-size: large;
+    padding: 3;
+}
+.para1 p{
+    margin-top: 3rem;
+}
+span{
+    font-size: larger;
+    color: rgb(116, 115, 115);
+}
+.para span{
+    display: flex;
+    align-items: center;
+    
+
+}
+button{
+    background-color: rgb(233, 68, 95);
+    color: white;
+}
+.button{
+    margin-top: 1rem;
+    width: 280px;
+    height: 48px;
+    border-radius: 1px solid;
+    border: none;
+    margin-left: 24%;
+    max-width: 300px;
+}
+.button:hover{
+    background-color: rgb(80, 31, 31);
+}
+.seconde-para{
+    width: 110vh;
+    max-width: 100%;
+    display: flex;
+    margin-top: 1rem;
+    
+}
+.seconde-para span{
+    display: flex;
+    
+    color: rgb(139, 139, 139);
+
+}
+.section{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(189, 184, 184);
+    display: flex;
+    align-items: center;
+    
+}
+.quates h4 ,h5{
+    color: #aba3ac;
+    line-height: 2em;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-style: italic;
+}
+.button1{
+    width: 12vh;
+    height: 7vh;
+    border: none;
+}
+
+.card-body button{
+    background:rgb(246, 103, 127);
+    height: 3rem;
+    color: white;
+    border: none;
+    border-radius: 1px solid;
+}
+.card-body button:hover{
+    background-color: rgb(114, 36, 49);
+}
+.content{
+    background-color: beige;
+}
+
+.content p{
+    line-height: 3vh;
+}
+.content button{
+    width: 10rem;
+    height: 3rem;
+}
+.seconde-section{
+     background-color:  #E0E0E0;;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+}
+.card{
+    display: flex;
+    
+}
+.card-text{
+    color: rgb(238, 69, 97);
+    font-size: x-large;
+    font-weight: 800;
+}
+.sub-button{
+    height: 5vh;
+    
+    
+}
+ h4{
+    font-size: xx-large;
+    color: rgb(126, 126, 126);
+    font-style: italic;
+    font-family: 'Merriweather', serif;color: #756F84;
+    line-height: 2em;
+}
+
+.footer{
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    line-height: 1.8em;
+    margin-top: 3em;
+    
+}
+.footer{
+    background-color: #465f63;
+    color: white;
+}
